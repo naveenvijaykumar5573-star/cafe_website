@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Good coffee, fresh pastries, and a little room to slow down. Visit Morrow & Bean in the heart of the neighborhood."
+    />
+    <title>Morrow &amp; Bean — Coffee, made slowly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Morrow and Bean home">
+        <span class="wordmark-icon" aria-hidden="true">m.</span>
+        <span>morrow <span class="wordmark-amp">&amp;</span> bean</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-navigation" id="site-navigation" aria-label="Main navigation">
+        <a href="#our-story">Our story</a>
+        <a href="#menu">The menu</a>
+        <a href="#visit">Find us</a>
+        <a class="nav-visit" href="#visit">Come on in <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Your neighborhood coffee spot</p>
+          <h1>A little pause<br />in your <em>everyday.</em></h1>
+          <p class="hero-description">
+            Thoughtfully brewed coffee, something fresh from the oven, and a seat saved just for you.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#menu">Explore the menu <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#our-story">Get to know us <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Open today <strong>8:00 am – 5:00 pm</strong></span>
+          </div>
+        </div>
+        <div class="hero-image" role="img" aria-label="A freshly poured cup of coffee on a cafe table">
+          <div class="image-caption">
+            <span>Good mornings start here</span>
+            <span aria-hidden="true">✳</span>
+          </div>
+          <div class="image-stamp" aria-hidden="true">
+            <span>slow</span>
+            <span>days</span>
+            <span>good coffee</span>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#our-story"><span></span> Scroll a little</a>
+      </section>
+
+      <section class="intro section-wrap" id="our-story">
+        <div class="section-label"><span>01</span> A good thing, daily</div>
+        <div class="intro-content">
+          <h2>Made with care.<br /><em>Made for you.</em></h2>
+          <div class="intro-text">
+            <p>
+              We believe the best days have a good cup of coffee in them. So we keep things simple:
+              lovely local ingredients, coffee we’re proud to pour, and a warm welcome every time.
+            </p>
+            <a class="text-link" href="#visit">A little more about us <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-wrap">
+          <div class="menu-heading">
+            <div>
+              <div class="section-label"><span>02</span> Good things on the table</div>
+              <h2>A few <em>favorites.</em></h2>
+            </div>
+            <p>Made fresh, served with a smile.<br />There’s always something good brewing.</p>
+          </div>
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div class="menu-photo menu-photo-coffee" role="img" aria-label="Freshly brewed coffee"></div>
+              <div class="menu-card-copy">
+                <div><h3>The daily pour</h3><p>Seasonal single-origin, brewed just right</p></div>
+                <span class="menu-price">from $4</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <div class="menu-photo menu-photo-pastry" role="img" aria-label="Freshly baked croissants"></div>
+              <div class="menu-card-copy">
+                <div><h3>Butter croissant</h3><p>Flaky, golden, baked every morning</p></div>
+                <span class="menu-price">$5</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <div class="menu-photo menu-photo-toast" role="img" aria-label="Toast topped with fresh fruit"></div>
+              <div class="menu-card-copy">
+                <div><h3>Something on toast</h3><p>Good bread, lovely things on top</p></div>
+                <span class="menu-price">$9</span>
+              </div>
+            </article>
+          </div>
+          <p class="menu-footnote">Our menu changes with the seasons. Come by to see what’s fresh.</p>
+        </div>
+      </section>
+
+      <section class="visit section-wrap" id="visit">
+        <div class="visit-copy">
+          <div class="section-label"><span>03</span> Your table is waiting</div>
+          <h2>Come as<br />you <em>are.</em></h2>
+          <p>
+            A cozy corner, a cup made your way, and nowhere else you need to be. We’ll put the kettle on.
+          </p>
+          <a class="button button-dark" href="https://www.google.com/maps/place/VENKY'S+KITCHENS/@12.9144728,77.6135067,966m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bae15be51255221:0x2e87e3a799bd5b83!8m2!3d12.9144676!4d77.6160816!16s%2Fg%2F11j4954qr5?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">
+            Get directions <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="visit-details">
+          <div class="detail-block">
+            <span class="detail-label">Find our little corner</span>
+            <p>42 Willow Street<br />Your neighborhood, 10001</p>
+          </div>
+          <div class="detail-block">
+            <span class="detail-label">Come by any day</span>
+            <p>Mon – Fri <span>8 am – 5 pm</span><br />Sat – Sun <span>9 am – 4 pm</span></p>
+          </div>
+          <a class="detail-email" href="mailto:hello@morrowandbean.com">hello@morrowandbean.com <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#home">
+        <span class="wordmark-icon" aria-hidden="true">m.</span>
+        <span>morrow <span class="wordmark-amp">&amp;</span> bean</span>
+      </a>
+      <p>A little pause in your everyday.</p>
+      <span class="footer-note">© <span id="current-year"></span> Morrow &amp; Bean</span>
+    </footer>
+    <h1>naveen</h1>
+  </body>
+</html>
